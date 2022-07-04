@@ -9,8 +9,24 @@ body {
     box-sizing: border-box;
 }
 
-.title {
+.hero {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-size: 9vh;
     text-align: center;
+    visibility: visible;
+    animation: titleAppear 7s ease;
+}
+
+@keyframes titleAppear {
+    0% {
+        visibility: hidden;
+    }
+    90% {
+        visibility: hidden;
+    }
+    100%{visibility: visible;}
 }
 
 [type="checkbox"]:checked,
@@ -258,7 +274,7 @@ body {
 
 .tree--1 {
     left: 50%;
-    animation: treeGrows 4s linear;
+    animation: treeGrows 4s ease;
     transform: scale(7);
 }
 
