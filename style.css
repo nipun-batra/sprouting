@@ -23,10 +23,14 @@ body {
     0% {
         visibility: hidden;
     }
+
     90% {
         visibility: hidden;
     }
-    100%{visibility: visible;}
+
+    100% {
+        visibility: visible;
+    }
 }
 
 [type="checkbox"]:checked,
@@ -349,7 +353,7 @@ body {
             transform: scale(1);
             visibility: visible;
         }
-    
+
         100% {
             transform: scale(5);
             visibility: visible;
